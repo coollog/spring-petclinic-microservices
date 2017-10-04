@@ -27,7 +27,7 @@ spec:
         - -Djava.security.egd=file:/dev/./urandom
         - -jar
         - /app.jar
-        image: gcr.io/qingyangc-sandbox/springbootkubernetes/spring-petclinic-admin-server
+        image: springbootkubernetes/spring-petclinic-admin-server
         name: admin-server
         ports:
         - containerPort: 9090

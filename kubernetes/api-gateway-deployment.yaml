@@ -27,7 +27,7 @@ spec:
         - -Djava.security.egd=file:/dev/./urandom
         - -jar
         - /app.jar
-        image: gcr.io/qingyangc-sandbox/springbootkubernetes/spring-petclinic-api-gateway
+        image: springbootkubernetes/spring-petclinic-api-gateway
         name: api-gateway
         ports:
         - containerPort: 8080

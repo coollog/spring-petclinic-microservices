@@ -27,7 +27,7 @@ spec:
         - -Djava.security.egd=file:/dev/./urandom
         - -jar
         - /app.jar
-        image: gcr.io/qingyangc-sandbox/springbootkubernetes/spring-petclinic-tracing-server
+        image: springbootkubernetes/spring-petclinic-tracing-server
         name: tracing-server
         ports:
         - containerPort: 9411

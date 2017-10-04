@@ -27,7 +27,7 @@ spec:
         - -Djava.security.egd=file:/dev/./urandom
         - -jar
         - /app.jar
-        image: gcr.io/qingyangc-sandbox/springbootkubernetes/spring-petclinic-customers-service
+        image: springbootkubernetes/spring-petclinic-customers-service
         name: customers-service
         ports:
         - containerPort: 8081
