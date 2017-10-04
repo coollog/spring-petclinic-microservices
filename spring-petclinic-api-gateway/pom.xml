@@ -61,7 +61,8 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <artifactId>spring-cloud-starter-kubernetes</artifactId>
+            <version>LATEST</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
