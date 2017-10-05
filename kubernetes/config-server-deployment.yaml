@@ -18,7 +18,7 @@ spec:
         io.kompose.service: config-server
     spec:
       containers:
-      - image: springbootkubernetes/spring-petclinic-config-server
+      - image: springbootkubernetes/spring-petclinic-config-server:1.5.3
         name: config-server
         ports:
         - containerPort: 8888

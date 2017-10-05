@@ -27,7 +27,7 @@ spec:
         - -Djava.security.egd=file:/dev/./urandom
         - -jar
         - /app.jar
-        image: springbootkubernetes/spring-petclinic-discovery-server
+        image: springbootkubernetes/spring-petclinic-discovery-server:1.5.3
         name: discovery-server
         ports:
         - containerPort: 8761

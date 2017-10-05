@@ -27,7 +27,7 @@ spec:
         - -Djava.security.egd=file:/dev/./urandom
         - -jar
         - /app.jar
-        image: springbootkubernetes/spring-petclinic-vets-service
+        image: springbootkubernetes/spring-petclinic-vets-service:1.5.3
         name: vets-service
         ports:
         - containerPort: 8083
